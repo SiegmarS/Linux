@@ -1,0 +1,16 @@
+Userberechtigungen in Linux
+Projektbeschreibung
+ So verwenden Sie Linux-Befehle zum Verwalten von Userberechtigungen
+Userberechtigungen 
+ rootuser - darf alles - sollte man aber für das tägliche arbeiten nicht benutzen, 
+  da es keine Möglichkeit der Aktivitäten nachverfolgung gibt, und da ein Fehler sehr weitreichende Folgen haben kann. 
+ Wenn Sie als Root-Benutzer arbeiten, besteht ein höheres Risiko, dass Sie einen irreversiblen Fehler begehen, 
+  beispielsweise das dauerhafte Löschen eines Verzeichnisses. Schließlich gibt es noch die Frage der Verantwortlichkeit. 
+  In einer Mehrbenutzerumgebung wie Linux gibt es viele Benutzer. Wenn ein Benutzer als Root arbeitet, gibt es keine Möglichkeit, 
+  nachzuverfolgen, wer genau einen Befehl ausgeführt hat. Die Lösung dieses Problems ist sudo.
+User erstellen
+ 
+Userberechtigungen ändern
+Sudoberechtigungen erteilen und antziehen
+Verzeichnisberechtigungen ändern
+Zusammenfassung
